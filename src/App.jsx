@@ -7,19 +7,22 @@ import About from "./pages/About";
 import BasicClassComp from "./typesofcomponent/classcomponent/BasicClassComp";
 import LifeCycleMethod from "./typesofcomponent/classcomponent/LifeCycleMethod";
 import Events from "./typesofcomponent/functionalcomponent/Events";
+import Input from "./typesofcomponent/functionalcomponent/Input";
+import './index.css';
 function App(){
-  const brands = ['Apple', 'Sony', 'Samsung'];
+  // const brands = ['Apple', 'Sony', 'Samsung'];
   return (
     // react uses JSX to building UI
-    <div>
+    <div className="container">
       <h1>App Component</h1>
-    <p>This is paragraph</p>
+    {/* <p>This is paragraph</p> */}
     {/* Functional Component */}
-    <Events />
+    {/* <Events /> */}
+    <Input />
     {/* Class Component */}
-    <BasicClassComp greet = "React => Basic class component" user = "Akansha"/>
-    <LifeCycleMethod />
-    <About products = {brands} />
+    {/* <BasicClassComp greet = "React => Basic class component" user = "Akansha"/> */}
+    {/* <LifeCycleMethod /> */}
+    {/* <About products = {brands} /> */}
     {/* <Students
       name = 'Aditya'
       email = 'aditya@gmail.com'
