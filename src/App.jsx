@@ -9,6 +9,7 @@ import LifeCycleMethod from "./typesofcomponent/classcomponent/LifeCycleMethod";
 import Events from "./typesofcomponent/functionalcomponent/Events";
 import Input from "./typesofcomponent/functionalcomponent/Input";
 import './index.css';
+import Login from "./typesofcomponent/functionalcomponent/validation/login/Login";
 function App(){
   // const brands = ['Apple', 'Sony', 'Samsung'];
   return (
@@ -18,7 +19,9 @@ function App(){
     {/* <p>This is paragraph</p> */}
     {/* Functional Component */}
     {/* <Events /> */}
-    <Input />
+    {/* <Input /> */}
+    <Login />
+
     {/* Class Component */}
     {/* <BasicClassComp greet = "React => Basic class component" user = "Akansha"/> */}
     {/* <LifeCycleMethod /> */}

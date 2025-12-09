@@ -25,4 +25,16 @@ label {
   border: 1px solid #d0d0d0;
   background-color: #fff;
   font-size: 1.2em;
+  display: block;
+  margin: 8px 0px;
+}
+button {
+  padding:8px 10px;
+  background-color: #015afe;
+  color: white;
+  border: transparent;
+  cursor: pointer;
+  border-radius: 6px;
+  display: block;
+  margin-top: 10px;
 }
