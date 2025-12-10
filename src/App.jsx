@@ -10,8 +10,13 @@ import Events from "./typesofcomponent/functionalcomponent/Events";
 import Input from "./typesofcomponent/functionalcomponent/Input";
 import './index.css';
 import Login from "./typesofcomponent/functionalcomponent/validation/login/Login";
+import User from "./typesofcomponent/functionalcomponent/User";
+import Student from "./typesofcomponent/functionalcomponent/Student";
 function App(){
   // const brands = ['Apple', 'Sony', 'Samsung'];
+  const getData = () => {
+    alert('Function from app component');
+  }
   return (
     // react uses JSX to building UI
     <div className="container">
@@ -20,8 +25,9 @@ function App(){
     {/* Functional Component */}
     {/* <Events /> */}
     {/* <Input /> */}
-    <Login />
-
+    {/* <Login /> */}
+    <User data = {getData}/>
+    <Student info = {getData}/>
     {/* Class Component */}
     {/* <BasicClassComp greet = "React => Basic class component" user = "Akansha"/> */}
     {/* <LifeCycleMethod /> */}
