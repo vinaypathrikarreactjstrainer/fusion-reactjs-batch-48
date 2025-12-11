@@ -1,4 +1,5 @@
 import React from "react";
+import Vinay from "./Vinay";
 
 const User = (props) => {
     console.log('props => ', props);
@@ -6,7 +7,8 @@ const User = (props) => {
     return (
         <>
             <h3>User Component</h3>
-            <button onClick={() => props.data()}>Users</button>
+            <button onClick={() => props.data()}>Users</button><br/>
+            <Vinay action = {props.data} data = {props.info} />
         </>
     )
 }

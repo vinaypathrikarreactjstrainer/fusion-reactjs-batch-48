@@ -10,12 +10,17 @@ import Events from "./typesofcomponent/functionalcomponent/Events";
 import Input from "./typesofcomponent/functionalcomponent/Input";
 import './index.css';
 import Login from "./typesofcomponent/functionalcomponent/validation/login/Login";
-import User from "./typesofcomponent/functionalcomponent/User";
-import Student from "./typesofcomponent/functionalcomponent/Student";
+import User from "./typesofcomponent/functionalcomponent/dataTransfer/parentToChild/User";
+import Student from "./typesofcomponent/functionalcomponent/dataTransfer/parentToChild/Student";
+import Parent from "./typesofcomponent/functionalcomponent/dataTransfer/childToParent/Parent";
 function App(){
   // const brands = ['Apple', 'Sony', 'Samsung'];
   const getData = () => {
     alert('Function from app component');
+  }
+  const getUser = () => {
+    let obj = {name: 'Aaishwarya', course : 'Java FullStack'}
+    console.log('obj from parent comp.', obj);
   }
   return (
     // react uses JSX to building UI
@@ -26,8 +31,10 @@ function App(){
     {/* <Events /> */}
     {/* <Input /> */}
     {/* <Login /> */}
-    <User data = {getData}/>
-    <Student info = {getData}/>
+    {/* <User data = {getData} info = {getUser}/>
+    <Student info = {getData}/> */}
+    <Parent />
+
     {/* Class Component */}
     {/* <BasicClassComp greet = "React => Basic class component" user = "Akansha"/> */}
     {/* <LifeCycleMethod /> */}
