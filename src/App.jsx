@@ -13,6 +13,7 @@ import Login from "./typesofcomponent/functionalcomponent/validation/login/Login
 import User from "./typesofcomponent/functionalcomponent/dataTransfer/parentToChild/User";
 import Student from "./typesofcomponent/functionalcomponent/dataTransfer/parentToChild/Student";
 import Parent from "./typesofcomponent/functionalcomponent/dataTransfer/childToParent/Parent";
+import ComponentLifeCycle from "./typesofcomponent/classcomponent/ComponetLifeCycle";
 function App(){
   // const brands = ['Apple', 'Sony', 'Samsung'];
   const getData = () => {
@@ -33,11 +34,13 @@ function App(){
     {/* <Login /> */}
     {/* <User data = {getData} info = {getUser}/>
     <Student info = {getData}/> */}
-    <Parent />
+    {/* <Parent /> */}
 
     {/* Class Component */}
     {/* <BasicClassComp greet = "React => Basic class component" user = "Akansha"/> */}
     {/* <LifeCycleMethod /> */}
+      <ComponentLifeCycle name = 'Fusion' location = 'Kharadi' />
+
     {/* <About products = {brands} /> */}
     {/* <Students
       name = 'Aditya'
