@@ -15,6 +15,7 @@ import Student from "./typesofcomponent/functionalcomponent/dataTransfer/parentT
 import Parent from "./typesofcomponent/functionalcomponent/dataTransfer/childToParent/Parent";
 import ComponentLifeCycle from "./typesofcomponent/classcomponent/ComponetLifeCycle";
 import UseEffecthook from "./typesofcomponent/functionalcomponent/hooks/UseEffecthook";
+import GetUsers from "./typesofcomponent/functionalcomponent/hooks/GetUsers";
 function App(){
   // const brands = ['Apple', 'Sony', 'Samsung'];
   const getData = () => {
@@ -36,7 +37,8 @@ function App(){
     {/* <User data = {getData} info = {getUser}/>
     <Student info = {getData}/> */}
     {/* <Parent /> */}
-    <UseEffecthook />
+    {/* <UseEffecthook /> */}
+    <GetUsers />
 
     {/* Class Component */}
     {/* <BasicClassComp greet = "React => Basic class component" user = "Akansha"/> */}
