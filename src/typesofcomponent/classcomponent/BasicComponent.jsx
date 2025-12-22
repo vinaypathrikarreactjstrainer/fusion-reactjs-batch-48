@@ -30,7 +30,7 @@ import ChildClassComponent from "./ChildClassComponent";
 //         )
 //     }
 // }
-class BasicComponent extends PureComponent{
+class BasicComponent extends Component{
     constructor(){
         super();
         this.state = {
