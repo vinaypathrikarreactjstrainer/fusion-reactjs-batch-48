@@ -18,6 +18,7 @@ import UseEffecthook from "./typesofcomponent/functionalcomponent/hooks/UseEffec
 import GetUsers from "./typesofcomponent/functionalcomponent/hooks/GetUsers";
 import BasicComponent from "./typesofcomponent/classcomponent/BasicComponent";
 import UseMemo from "./typesofcomponent/functionalcomponent/hooks/UseMemo";
+import DOM from "./typesofcomponent/classcomponent/DOM";
 function App(){
   // const brands = ['Apple', 'Sony', 'Samsung'];
   const getData = () => {
@@ -41,7 +42,8 @@ function App(){
     {/* <Parent /> */}
     {/* <UseEffecthook /> */}
     {/* <GetUsers /> */}
-      <UseMemo />
+      {/* <UseMemo /> */}
+      <DOM />
     {/* Class Component */}
     {/* <BasicClassComp greet = "React => Basic class component" user = "Akansha"/> */}
     {/* <LifeCycleMethod /> */}
