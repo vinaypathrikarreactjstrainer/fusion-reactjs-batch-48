@@ -42,6 +42,7 @@ class DOM extends Component {
                     <li ref={this.aditya}>Aditya</li>
                     <li ref={this.ankansha}>Akansha</li>
                     <li ref={this.aaishwarya}>Aaishwarya</li>
+                    <li ref={this.aaishwarya}>Vinay</li>
                 </ul>
                 <button 
                     type="button"
