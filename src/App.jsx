@@ -22,6 +22,7 @@ import DOM from "./typesofcomponent/classcomponent/DOM";
 import UseRef from "./typesofcomponent/functionalcomponent/hooks/UseRef";
 import ParentRef from "./typesofcomponent/functionalcomponent/hooks/ParentRef";
 import BootStrap from "./typesofcomponent/functionalcomponent/BootStrap";
+import Blogs from "./typesofcomponent/functionalcomponent/bootstrap/Blogs";
 function App(){
   // const brands = ['Apple', 'Sony', 'Samsung'];
   const getData = () => {
@@ -48,7 +49,8 @@ function App(){
       {/* <UseMemo /> */}
       {/* <DOM /> */}
       {/* <ParentRef /> */}
-      <BootStrap />
+      {/* <BootStrap /> */}
+      <Blogs />
       {/* <UseRef /> */}
     {/* Class Component */}
     {/* <BasicClassComp greet = "React => Basic class component" user = "Akansha"/> */}
