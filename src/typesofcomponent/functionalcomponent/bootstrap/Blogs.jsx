@@ -5,15 +5,15 @@ import ListGroup from 'react-bootstrap/ListGroup';
 const Blogs = () => {
     const [blog, setBlogs] = useState([]); // post/blogs
     const [show, setShow] = useState(false); // show/hide blogs Ui
-    const blogURL = `https://jsonplaceholder.typicode.com/posts`;
+    const blogURL = `https://jsonplaceholder.typicode.com/posts?_page=1&_limit=10`;
     useEffect(() => {
         fetch(blogURL)
             .then(resp => resp.json())
             .then(data => {
-                console.log('data => ', data);
-                const post20 = data.slice(0, 20);
-                console.log('post20 => ', post20);
-                setBlogs(post20);
+                // console.log('data => ', data);
+                // const post20 = data.slice(0, 20);
+                // console.log('post20 => ', post20);
+                setBlogs(data);
             })
             .catch(err => console.error(err))
     }, []);

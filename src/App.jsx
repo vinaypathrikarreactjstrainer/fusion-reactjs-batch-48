@@ -23,6 +23,7 @@ import UseRef from "./typesofcomponent/functionalcomponent/hooks/UseRef";
 import ParentRef from "./typesofcomponent/functionalcomponent/hooks/ParentRef";
 import BootStrap from "./typesofcomponent/functionalcomponent/BootStrap";
 import Blogs from "./typesofcomponent/functionalcomponent/bootstrap/Blogs";
+import Gallery from "./typesofcomponent/functionalcomponent/bootstrap/Gallery";
 function App(){
   // const brands = ['Apple', 'Sony', 'Samsung'];
   const getData = () => {
@@ -50,6 +51,7 @@ function App(){
       {/* <DOM /> */}
       {/* <ParentRef /> */}
       {/* <BootStrap /> */}
+      <Gallery name = "User Name"/>
       <Blogs />
       {/* <UseRef /> */}
     {/* Class Component */}
