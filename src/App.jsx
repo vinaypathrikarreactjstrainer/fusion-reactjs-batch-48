@@ -24,6 +24,11 @@ import ParentRef from "./typesofcomponent/functionalcomponent/hooks/ParentRef";
 import BootStrap from "./typesofcomponent/functionalcomponent/BootStrap";
 import Blogs from "./typesofcomponent/functionalcomponent/bootstrap/Blogs";
 import Gallery from "./typesofcomponent/functionalcomponent/bootstrap/Gallery";
+import ControlComp from "./typesofcomponent/functionalcomponent/Control/ControlComp";
+import UncontrolComp from "./typesofcomponent/functionalcomponent/UnControl/UncontrolComp";
+import HigherOComp from "./typesofcomponent/functionalcomponent/HOC/ExampleHOC";
+import ExampleHOC from "./typesofcomponent/functionalcomponent/HOC/ExampleHOC";
+import MainComp from "./typesofcomponent/functionalcomponent/HOC/practical/MainComp";
 function App(){
   // const brands = ['Apple', 'Sony', 'Samsung'];
   const getData = () => {
@@ -51,8 +56,12 @@ function App(){
       {/* <DOM /> */}
       {/* <ParentRef /> */}
       {/* <BootStrap /> */}
-      <Gallery name = "User Name"/>
-      <Blogs />
+      {/* <Gallery name = "User Name"/>
+      <Blogs /> */}
+      {/* <ControlComp />
+      <UncontrolComp /> */}
+      {/* <ExampleHOC /> */}
+      <MainComp />
       {/* <UseRef /> */}
     {/* Class Component */}
     {/* <BasicClassComp greet = "React => Basic class component" user = "Akansha"/> */}
